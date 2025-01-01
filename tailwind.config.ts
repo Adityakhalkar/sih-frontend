@@ -59,10 +59,6 @@ const config: Config = {
         md: "calc(var(--radius) - 2px)",
         sm: "calc(var(--radius) - 4px)",
       },
-      fontFamily: {
-        geist: ['GeistVF', 'sans-serif'],      // GeistVF font
-        geistMono: ['GeistMonoVF', 'monospace'] // GeistMonoVF font
-      },
       animation: {
         spotlight: "spotlight 2s ease .75s 1 forwards",
         "accordion-down": "accordion-down 0.2s ease-out",
@@ -71,21 +67,21 @@ const config: Config = {
       keyframes: {
         spotlight: {
           "0%": {
-            opacity: 0,
+            opacity: '0',
             transform: "translate(-40%, -62%) scale(0.5)",
           },
           "100%": {
-            opacity: 1,
+            opacity: '1',
             transform: "translate(47%,-40.5%) scale(1)",
           },
         },
         "accordion-down": {
-          from: { height: 0 },
+          from: { height: '0' },
           to: { height: "var(--radix-accordion-content-height)" },
         },
         "accordion-up": {
           from: { height: "var(--radix-accordion-content-height)" },
-          to: { height: 0 },
+          to: { height: '0' },
         },
       },
     },

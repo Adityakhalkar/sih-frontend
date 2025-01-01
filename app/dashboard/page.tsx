@@ -6,7 +6,6 @@ import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Label } from "@/components/ui/label"
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { CalendarDateRangePicker } from "@/components/ui/date-range-picker"
 import { MainNav } from "@/components/main-nav"
 import { Overview } from "@/components/overview"
 import { RecentSpills } from "@/components/recent-spills"
@@ -52,7 +51,6 @@ export default function OilSpillDashboard() {
         <div className="flex items-center justify-between space-y-2">
           <h2 className="text-3xl font-bold tracking-tight">Oil Spill Detection Dashboard</h2>
           <div className="flex items-center space-x-2">
-            <CalendarDateRangePicker />
             <Button>Generate Report</Button>
           </div>
         </div>

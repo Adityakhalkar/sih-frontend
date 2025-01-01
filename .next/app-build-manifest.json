@@ -1,25 +1,49 @@
 {
   "pages": {
-    "/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/page.js"
+    "/_not-found/page": [
+      "static/chunks/webpack-09a3cb7d32e16468.js",
+      "static/chunks/fd9d1056-3c0a5e4377f054b9.js",
+      "static/chunks/23-4243d2251446acf4.js",
+      "static/chunks/main-app-b8a373ac050d247c.js",
+      "static/chunks/app/_not-found/page-94ff5561ffd26572.js"
     ],
     "/layout": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/css/app/layout.css",
-      "static/chunks/app/layout.js"
+      "static/chunks/webpack-09a3cb7d32e16468.js",
+      "static/chunks/fd9d1056-3c0a5e4377f054b9.js",
+      "static/chunks/23-4243d2251446acf4.js",
+      "static/chunks/main-app-b8a373ac050d247c.js",
+      "static/css/1696448e9bfd9bd9.css",
+      "static/css/d33687676200d610.css",
+      "static/chunks/app/layout-1086eebd037e74ff.js"
     ],
     "/dashboard/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/dashboard/page.js"
+      "static/chunks/webpack-09a3cb7d32e16468.js",
+      "static/chunks/fd9d1056-3c0a5e4377f054b9.js",
+      "static/chunks/23-4243d2251446acf4.js",
+      "static/chunks/main-app-b8a373ac050d247c.js",
+      "static/chunks/277-c246951030376fad.js",
+      "static/chunks/694-98edfbe7cf4af5e5.js",
+      "static/chunks/app/dashboard/page-9e0eea304856d9cf.js"
     ],
-    "/_not-found/page": [
-      "static/chunks/webpack.js",
-      "static/chunks/main-app.js",
-      "static/chunks/app/_not-found/page.js"
+    "/page": [
+      "static/chunks/webpack-09a3cb7d32e16468.js",
+      "static/chunks/fd9d1056-3c0a5e4377f054b9.js",
+      "static/chunks/23-4243d2251446acf4.js",
+      "static/chunks/main-app-b8a373ac050d247c.js",
+      "static/chunks/b536a0f1-106c3a98eb99a8b7.js",
+      "static/chunks/25-c54ea907fa30d082.js",
+      "static/chunks/277-c246951030376fad.js",
+      "static/chunks/539-522c9cc740f168e2.js",
+      "static/chunks/app/page-2e4c75edd72f8f4d.js"
+    ],
+    "/oil-spill/page": [
+      "static/chunks/webpack-09a3cb7d32e16468.js",
+      "static/chunks/fd9d1056-3c0a5e4377f054b9.js",
+      "static/chunks/23-4243d2251446acf4.js",
+      "static/chunks/main-app-b8a373ac050d247c.js",
+      "static/chunks/b536a0f1-106c3a98eb99a8b7.js",
+      "static/chunks/25-c54ea907fa30d082.js",
+      "static/chunks/app/oil-spill/page-321c5175067ee792.js"
     ]
   }
 }

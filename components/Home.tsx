@@ -201,7 +201,7 @@ export default function EyeFromAbovePage() {
           >
             <h2 className="text-4xl font-bold mb-6">Our Impact</h2>
             <p className="mb-8 text-lg leading-relaxed">
-             We will make impact on the social lives of everyone living near the coast of India to ensure that their life is safe from oil pollution. And we will make a strong impact on the India's growth by limiting the economy loss on oil spillage.
+             We will make impact on the social lives of everyone living near the coast of India to ensure that their life is safe from oil pollution. And we will make a strong impact on the India&apos;s growth by limiting the economy loss on oil spillage.
             </p>
             <Button className="bg-yellow-500 hover:bg-yellow-600 text-black font-bold py-3 px-6 rounded-lg transition-colors duration-300">
               We will work together!

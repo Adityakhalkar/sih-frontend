@@ -1,5 +1,12 @@
-import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table"
-import { Badge } from "@/components/ui/badge"
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from "@/components/ui/table";
+import { Badge } from "@/components/ui/badge";
 
 const spills = [
   { id: "S001", location: "Gulf of Mexico", date: "2023-06-15", size: "Large", status: "Active" },
@@ -7,7 +14,17 @@ const spills = [
   { id: "S003", location: "South China Sea", date: "2023-06-25", size: "Small", status: "Cleaned" },
   { id: "S004", location: "Mediterranean Sea", date: "2023-06-30", size: "Large", status: "Active" },
   { id: "S005", location: "Persian Gulf", date: "2023-07-05", size: "Medium", status: "Contained" },
-]
+];
+
+// Map statuses to valid Badge variants
+const badgeVariant: Record<
+  string,
+  "default" | "secondary" | "destructive" | "outline"
+> = {
+  Active: "destructive",
+  Contained: "secondary",
+  Cleaned: "default",
+};
 
 export function SpillList() {
   return (
@@ -30,13 +47,7 @@ export function SpillList() {
             <TableCell>{spill.size}</TableCell>
             <TableCell>
               <Badge
-                variant={
-                  spill.status === "Active"
-                    ? "destructive"
-                    : spill.status === "Contained"
-                    ? "warning"
-                    : "success"
-                }
+                variant={badgeVariant[spill.status] || "default"}
               >
                 {spill.status}
               </Badge>
@@ -45,5 +56,5 @@ export function SpillList() {
         ))}
       </TableBody>
     </Table>
-  )
+  );
 }
