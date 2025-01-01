@@ -14,7 +14,7 @@ export function MainNav({
       </Link>
       <Link
         href="/dashboard"
-        className="text-sm font-medium transition-colors hover:text-primary"
+        className="text-sm font-medium transition-colors hover:text-zinc-300"
       >
         Overview
       </Link>
